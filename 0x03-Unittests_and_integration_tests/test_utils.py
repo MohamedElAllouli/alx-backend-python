@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Parameterize a unit test
+"""
+unit test
 """
 from parameterized import parameterized
 import unittest
@@ -13,7 +14,9 @@ from utils import (
 
 
 class TestAccessNestedMap(unittest.TestCase):
-    """Test access_nested_map utils methods
+    """
+    Test access_nested_map utils methods
+    
     """
     @parameterized.expand([
         ({"a": 1}, ("a",), 1),
