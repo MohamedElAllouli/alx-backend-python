@@ -111,4 +111,3 @@ class TestIntegrationGithubOrgClient(unittest.TestCase):
         """Run after the actual test
         """
         cls.get_patcher.stop()
-
