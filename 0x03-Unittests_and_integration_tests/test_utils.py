@@ -15,8 +15,7 @@ from utils import (
 
 class TestAccessNestedMap(unittest.TestCase):
     """
-    Test access_nested_map utils methods
-    
+    Test access_nested_map utils methods   
     """
     @parameterized.expand([
         ({"a": 1}, ("a",), 1),

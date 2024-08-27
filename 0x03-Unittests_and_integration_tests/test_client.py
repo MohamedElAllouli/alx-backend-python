@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """ 
 Parameterize and patch as decorators
-
 """
 from client import GithubOrgClient
 from fixtures import TEST_PAYLOAD
